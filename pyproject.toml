@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "CommonCrawlETL"
+version = "0.1.0"
+description = "Creates a Datalake to store Common Crawl files"
+authors = ["graffignabracco <juanalbertograffigna@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+comcrawl = "^1.0.2"
+cdx-toolkit = "^0.9.34"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
